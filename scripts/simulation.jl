@@ -94,4 +94,5 @@ scatter(range(q.loc[1][1], stop=q.loc[1][1], length=3), h .+ range(q.startz, sto
 legend()
 imshow(reshape(Pressure(state.states[end]), n[1], n[end])', extent=extent, aspect="auto"); xlabel("X [m]"); ylabel("Z [m]"); colorbar();title("pressure after $(tot_time/365.25) years");
 tight_layout()
+mkpath(plotsdir())
 savefig(plotsdir("sat_p.png"), bbox_inches="tight", dpi=300)
