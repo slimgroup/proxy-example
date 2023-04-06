@@ -1,4 +1,4 @@
-### Read the 3D Compass slice from SLIM website and take out the 2D slice
+### Read the Compass slice from SLIM website and take out the 2D slice
 ## Please refer to the details in the MIT license of this repository and in the license of the Compass model
 ## author: Ziyi Yin (ziyi.yin@gatech.edu)
 
