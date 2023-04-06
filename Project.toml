@@ -1,7 +1,14 @@
 name = "proxy-example"
 authors = ["Ziyi Yin"]
-[compat]
-julia = "1.8.5"
-DrWatson = "2.12.4"
+
 [deps]
 DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+JutulDarcyRules = "41f0c4f5-9bdd-4ef1-8c3a-d454dff2d562"
+Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+SegyIO = "157a0f19-4d44-4de5-a0d0-07e2f0ac4dfa"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+[compat]
+DrWatson = "2.12.4"
+julia = "1.8.5"
